@@ -3,8 +3,9 @@
 var gulp = require('gulp');
 // var sass = require('gulp-sass');
 
-gulp.task('hello', function() {
+gulp.task('hello', function(done) {
   console.log("Hello, Alex!");
+  done();
 });
 
 // gulp.task('sass', function() {

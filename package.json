@@ -1,16 +1,20 @@
 {
   "name": "kallaway.github.io",
   "version": "1.0.0",
-  "scripts": {
-    "babel-version": "babel --version"
-  },
-  "devDependencies": {
-	  "babel-cli": "^6.0.0"
-  },
   "description": "kallaway.github.io",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "babel-version": "babel --version",
+    "hello": "gulp hello",
+    "test": "npm run hello"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "gulp": "^5.0.1"
   },
   "repository": {
     "type": "git",
