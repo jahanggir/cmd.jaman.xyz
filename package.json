@@ -12,8 +12,8 @@
     "node": ">=22"
   },
   "devDependencies": {
-    "@babel/cli": "^7.28.3",
-    "@babel/core": "^7.28.5",
+    "@babel/cli": "^8.0.1",
+    "@babel/core": "^8.0.1",
     "gulp": "^5.0.1"
   },
   "repository": {
